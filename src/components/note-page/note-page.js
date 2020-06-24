@@ -23,7 +23,7 @@ const NotePage = ({url,itemWantedToDelete}) => {
                 <button type="button"
                         className="btn btn-lg btn-danger"
                         onClick={() => itemWantedToDelete(url)}>
-                    Delete this note
+                    Delete note
                 </button>
             </div>
         </div>

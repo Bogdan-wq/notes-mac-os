@@ -11,7 +11,6 @@ const DeleteModal = ({index,deleteNote,closeDeleteModal,history}) => {
         history.push('/')
     }
 
-    console.log(index)
 
     return (
         <Fragment>
