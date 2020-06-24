@@ -1,0 +1,20 @@
+.note-item {
+
+  &:hover {
+    background-color: #e5e5e5;
+  }
+
+  &__topic {
+    height:33px;
+  }
+  &__topic,&__text {
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+  }
+
+  &__text {
+    color: rgb(160,160,160);
+    width:40%;
+  }
+}

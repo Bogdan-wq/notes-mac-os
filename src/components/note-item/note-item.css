@@ -1,0 +1,17 @@
+.note-item:hover {
+  background-color: #e5e5e5;
+}
+.note-item__topic {
+  height: 33px;
+}
+.note-item__topic, .note-item__text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.note-item__text {
+  color: #a0a0a0;
+  width: 40%;
+}
+
+/*# sourceMappingURL=note-item.css.map */
